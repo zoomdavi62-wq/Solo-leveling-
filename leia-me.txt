@@ -1,0 +1,30 @@
+BREAK SYSTEM — ARQUIVOS DO NOVO APP
+
+ESTRUTURA
+novo_app_capacitor/
+  www/
+    index.html
+  capacitor.config.json
+  package.json
+  leia-me.txt
+
+FUNÇÃO DOS ARQUIVOS
+- www/index.html: tela e funcionamento do aplicativo.
+- capacitor.config.json: nome, identificador e pasta dos arquivos web.
+- package.json: dependências e comandos do projeto.
+- leia-me.txt: instruções de configuração.
+
+CONFIGURAÇÃO NO COMPUTADOR
+1. Extraia o ZIP.
+2. Abra um terminal dentro da pasta novo_app_capacitor.
+3. Execute: npm install
+4. Adicione o Android: npx cap add android
+5. Sincronize: npx cap sync android
+6. Abra no Android Studio: npx cap open android
+
+IMPORTANTE
+- Não apague a pasta www.
+- Depois de editar www/index.html, execute npx cap sync android.
+- O identificador atual é com.breaksystem.app. Para outro app, escolha um
+  identificador exclusivo.
+- Para compilar o APK, é necessário configurar Node.js e Android Studio.
